@@ -1,0 +1,27 @@
+# Gradle / 构建产物
+build/
+.gradle/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# 运行目录 (游戏客户端)
+run/
+
+# 系统文件
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# 本地分析工具产物
+tools/*.class
+tools/*.txt
+tools/c2s.txt
+tools/rec.txt
+tools/

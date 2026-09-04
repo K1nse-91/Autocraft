@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "autocraft",
+  "version": "${version}",
+  "name": "AutoCraft 自动合成",
+  "description": "自动合成: 选择目标物品与数量, 打开工作台自动合成; 缺材料自动去展示框标记的补给箱拿取 (框里放什么, 箱子专供什么)。含 ±64/±1728 数量快捷面板。",
+  "authors": [
+    "K1nse_"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.autocarpet.AutoCraft"
+    ]
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/1.21.11-baritone.jar"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*",
+    "baritone-meteor": "*"
+  }
+}
