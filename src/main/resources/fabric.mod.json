@@ -7,6 +7,8 @@
   "authors": [
     "K1nse_"
   ],
+  "license": "MIT",
+  "icon": "assets/autocraft/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
